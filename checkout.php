@@ -45,9 +45,16 @@ echo $customer->name();
 echo '<br><br>';
 
 echo 'Catalog Prices <br>';
-echo 'Watch $' . $watch->itemTotal() . '<br>';
-echo 'Widget $' . $widget->itemTotal() . '<br>';
-echo 'Wand $' . $wand->itemTotal() . '<br>';
+echo 'Watch $' . $watch->price() . '<br>';
+echo 'Widget $' . $widget->price() . '<br>';
+echo 'Wand $' . $wand->price() . '<br>';
+
+echo '<br><br>';
+
+echo 'Cart Item Total <br>';
+collect($cart->items)->each(function ($item) {
+    echo $item->name() . ': ' . $item->quantity . ' * ' . $item->price() . ' = ' . $item->itemTotal() . '<br>';
+});
 
 echo '<br><br>';
 
