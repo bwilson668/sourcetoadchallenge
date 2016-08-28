@@ -18,7 +18,7 @@ Problem 3 is tackled in `checkout.php`.
 
 ## Reviewing
 
-You can see the files in action on my website at (sourcetoad.benjaminandrewwilson.com)[https://sourcetoad.benjaminandrewwilson.com]
+You can see the files in action on my website at [sourcetoad.benjaminandrewwilson.com](https://sourcetoad.benjaminandrewwilson.com)
 
 They are not the prettiest pages, but the problems focused more on the backend logic.
 
