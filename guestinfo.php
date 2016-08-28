@@ -14,7 +14,7 @@ $sort = isset($_GET['sort']) ? $_GET['sort'] : 'booking_number';
 
 echo 'You may update what to pull out and sort by. <br>';
 echo 'You can do this by setting the "find" and "sort" variables in the URL. <br>';
-echo 'EX. http://sourcetoadchallenge.dev/?find=first_name&sort=last_name <br>';
+echo 'Ex. http://sourcetoad.benjaminandrewwilson.com/guestinfo.php?find=first_name&sort=last_name <br>';
 
 echo '<br><br>';
 
