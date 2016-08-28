@@ -14,7 +14,7 @@ $sort = isset($_GET['sort']) ? $_GET['sort'] : 'booking_number';
 
 echo 'You may update what to pull out and sort by. <br>';
 echo 'You can do this by setting the "find" and "sort" variables in the URL. <br>';
-echo 'Ex. http://sourcetoad.benjaminandrewwilson.com/guestinfo.php?find=first_name&sort=last_name <br>';
+echo 'Ex. https://sourcetoad.benjaminandrewwilson.com/guestinfo.php?find=first_name&sort=last_name <br>';
 
 echo '<br><br>';
 
@@ -29,7 +29,7 @@ echo '<br><br>';
 echo 'Sorted Guest Information <br>';
 echo 'Sorted by Guest\'s ' . $sort . '<br>';
 echo '<pre>';
-print_r(sortGuestsInfo($guests, $find)->all());
+print_r(sortGuestsInfo($guests, $sort)->all());
 echo '</pre>';
 
 // Ok, back to clean(er) code

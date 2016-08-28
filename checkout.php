@@ -8,7 +8,7 @@ require_once 'vendor/autoload.php';
 
 $home = new Address('123 Home Ct.', '', 'Small Town', 'KY', 12345);
 $work = new Address('1000 Universal Blvd.', '', 'Orlando', 'FL', 33619);
-$beach = new Address('50 Luau Ln.', '', 'Honalulu', 'HI', 86753);
+$beach = new Address('50 Luau Ln.', '', 'Honolulu', 'HI', 86753);
 
 $customer = new Customer('Ben', 'Wilson');
 $customer->addAddress($home, 'home');
